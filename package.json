@@ -1,0 +1,20 @@
+{
+  "name": "transponet-poc-server",
+  "version": "1.0.0",
+  "description": "Server for transponet poc",
+  "license": "ISC",
+  "author": "Saad UR Rehman",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "qrcode": "^1.5.4",
+    "socket.io": "^4.8.1",
+    "uuid": "^11.1.0"
+  }
+}
